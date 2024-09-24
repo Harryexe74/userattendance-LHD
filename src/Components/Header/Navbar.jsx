@@ -1,5 +1,4 @@
 import React from "react";
-import { FiSearch, FiBell, FiSettings } from "react-icons/fi";
 import ProfileDropdown from "./ProfileDropDown/ProfileDropDown";
 
 const Navbar = () => {
