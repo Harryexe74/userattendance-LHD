@@ -138,12 +138,12 @@ const AddEmployeelist = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full px-4 py-2 text-center text-slate-700 transition-all text-3xl"
+          className="block w-full px-4 py-2 text-center  text-slate-700 transition-all text-3xl"
         >
           <b>Employee List</b>.
         </a>
       </div>
-      <div className="relative flex flex-col w-[100wh] h-full text-slate-700 bg-white shadow-lg rounded-xl bg-clip-border">
+      <div className="relative flex flex-col w-[100wh] h-full  text-slate-700 bg-white shadow-lg rounded-xl bg-clip-border">
         <div className="relative mx-4 mt-4 overflow-hidden text-slate-700 bg-white rounded-none bg-clip-border">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-semibold text-slate-800">Employees List</h3>
@@ -232,8 +232,8 @@ const AddEmployeelist = () => {
 
       {/* Edit Employee Form */}
       {showEditForm && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="fixed inset-0 flex items-center justify-center bg-black  bg-opacity-50">
+          <div className=" p-6 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold mb-4">Edit Employee</h2>
             <form onSubmit={handleFormSubmit}>
               <div className="grid grid-cols-1 gap-4">

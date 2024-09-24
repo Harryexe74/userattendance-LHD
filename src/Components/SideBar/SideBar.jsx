@@ -46,7 +46,7 @@ const Sidebar = ({ closeSidebar }) => {
           alt="Profile"
           className="rounded-full w-8 h-8"
         />
-        <span>LHD LTD</span>
+        <span className="text-amber-900">LHD LTD</span>
       </div>
       <Link to={"profile"} className="mt-4 flex flex-col items-center" onClick={handleLinkClick}>
         <img
@@ -55,14 +55,14 @@ const Sidebar = ({ closeSidebar }) => {
           className="rounded-full w-20 h-20"
         />
         <div className="flex flex-col mt-2 gap-2 text-center ">
-          <div className="font-semibold">Faisal Khan</div>
+          <div className="font-semibold text-amber-900">Faisal Khan</div>
           <div className="text-sm text-primary bg-secondary shadow-md hover:shadow-lg hover:shadow-primary px-4 py-2 rounded-md">
             Web Developer
           </div>
         </div>
       </Link>
-      <div className="flex flex-col mt-5 border-t-2 border-secondary">
-        <div className="pt-5 hover:text-black">
+      <div className="flex flex-col mt-5 border-t-2 border-secondary font-bold">
+        <div className="pt-5  hover:text-black">
           <SidebarItem
             Icon={MdOutlineDashboard}
             label="Dashboard"
