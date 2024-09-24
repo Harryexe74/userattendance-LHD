@@ -1,9 +1,9 @@
 
-import ProfileDropdown from "./ProfileDropDown/ProfileDropdown";
-import React, { Suspense, lazy } from 'react';
+// import ProfileDropdown from "./ProfileDropDown/ProfileDropdown";
+import React, { Suspense,lazy} from 'react';
 
 // Lazy load the ProfileDropDown component
-// const ProfileDropDown = lazy(() => import('./ProfileDropDown/ProfileDropdown'));
+const ProfileDropDown = lazy(() => import('./ProfileDropDown/ProfileDropdown'));
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center gap-3    text-secondary">
