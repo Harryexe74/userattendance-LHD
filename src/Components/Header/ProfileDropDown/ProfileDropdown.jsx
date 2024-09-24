@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaApple, FaAndroid } from "react-icons/fa";
 import { IoIosArrowDown, IoMdColorPalette } from "react-icons/io";
 import { LuShieldAlert } from "react-icons/lu";
 import { RiLogoutBoxRLine } from "react-icons/ri";
